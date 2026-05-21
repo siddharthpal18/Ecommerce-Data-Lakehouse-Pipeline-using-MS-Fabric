@@ -77,8 +77,10 @@ bronze/
 - Day 2 customers: 8 records
 - Day 2 orders: 30 records
 
-![alt text](image.png)
-![alt text](image-1.png)
+
+<img width="1521" height="482" alt="image" src="https://github.com/user-attachments/assets/ffd27185-e1a3-46a8-95fd-731a2ae0a205" />
+<img width="1535" height="615" alt="image" src="https://github.com/user-attachments/assets/6e97b126-a7c7-4b9f-8baf-de4726458f01" />
+
 
 ---
 
@@ -110,7 +112,8 @@ silver/
 - orders: 30,000+ records
 - orders2: 30 records
 
-![alt text](image-2.png)
+<img width="1480" height="652" alt="image" src="https://github.com/user-attachments/assets/ce01b264-17a6-41b3-969c-acadc43320cd" />
+
 
 ---
 
@@ -155,7 +158,8 @@ Description:
 - Customer satisfaction metrics (rating, returns)
 - Directly optimized for Power BI
 
-![alt text](image-3.png)
+<img width="1457" height="644" alt="image" src="https://github.com/user-attachments/assets/0c0516b3-ea89-4df0-ab1e-7151389afa81" />
+
 ---
 
 ## 4. TRANSFORMATION NOTEBOOKS
@@ -186,8 +190,10 @@ Description:
 - Saves as Delta tables for optimization
 - All data types properly cast (STRING → DATE, STRING → BOOLEAN, etc.)
 
-![alt text](image-4.png)
-![alt text](image-5.png)
+<img width="1484" height="923" alt="image" src="https://github.com/user-attachments/assets/6f6273a3-5b0a-4440-9fbe-da98a2261c38" />
+<img width="1505" height="930" alt="image" src="https://github.com/user-attachments/assets/74c2d2f9-7206-4c1d-96df-4879aad54b4e" />
+<img width="1499" height="935" alt="image" src="https://github.com/user-attachments/assets/98613f0e-0d86-4452-9c07-fdc64be5aed4" />
+
 
 ---
 
@@ -228,9 +234,10 @@ Description:
 - dim_customers: 7,964 records (7,959 + 5 new)
 - fact_customer_metrics: 7,964 records (updated + new)
 
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
+<img width="1515" height="850" alt="image" src="https://github.com/user-attachments/assets/b279e390-c358-43ce-9ac6-265f15477316" />
+<img width="1492" height="895" alt="image" src="https://github.com/user-attachments/assets/e3735c77-0b17-42bd-84b7-62ade5280904" />
+<img width="1510" height="899" alt="image" src="https://github.com/user-attachments/assets/de309803-1115-4da3-bbbb-045bc6fcabbe" />
+
 ---
 
 ## 5. DATA PIPELINE FLOW
@@ -270,7 +277,8 @@ Description:
    - Customer segmentation
    - Status: ✅ Succeeded
 
-![alt text](image-9.png)
+<img width="1469" height="438" alt="image" src="https://github.com/user-attachments/assets/78300f12-2541-4841-bd07-54b81856e302" />
+
 
 ---
 
@@ -298,7 +306,8 @@ Description:
 - No data copying
 - Optimized for analytics
 
-![alt text](image-10.png)
+<img width="1020" height="667" alt="image" src="https://github.com/user-attachments/assets/8a511651-5b98-4fd4-9a13-2e04b5ba59ab" />
+
 
 ---
 
@@ -365,27 +374,10 @@ Visual 10: Table - Top 10 Customers
 - Sort: total_spent (descending)
 - Filter: Top 10 by total_spent
 
-**PAGE 3: CUSTOMER INSIGHTS**
 
-Visual 11: Line Chart - Spending by Age Group
-- X-axis: age (binned: 10-19, 20-29, 30-39, etc.)
-- Y-axis: SUM(total_spent)
-- Legend: membership_tier
-- Shows: Age cohort spending patterns
+<img width="1143" height="663" alt="image" src="https://github.com/user-attachments/assets/3f742f24-a514-4c02-aa47-9d0c490131d0" />
+<img width="1160" height="650" alt="image" src="https://github.com/user-attachments/assets/8b814502-f3b9-458e-af5a-140e314878c0" />
 
-Visual 12: Gauge Chart - Customer Satisfaction
-- Value: AVERAGE(avg_rating)
-- Target: 5.0
-- Range: 0-5
-- Shows: Overall satisfaction score
-
-Visual 13: Pie Chart - Gender Distribution
-- Category: gender
-- Value: COUNT(customer_id)
-- Shows: Male/Female split
-
-![alt text](image-11.png)
-![alt text](image-12.png)
 
 ---
 
